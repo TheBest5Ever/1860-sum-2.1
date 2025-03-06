@@ -1,8 +1,14 @@
     @R0
-    D=M         // D = R0
+    D=M          
 
     @R1
-    D=D^M       // D = R0 ^ R1  (XOR)
+    D=D&M        
+
+    @R0
+    A=M      
+
+    @R1
+    A=A|M    
 
     @R2
-    M=D         // Store the result in R2
+    D=A-D    
