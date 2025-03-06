@@ -1,15 +1,14 @@
     @R0
-    D=M          
-
+    D=M        
     @R1
-    D=D&M        
-
+    D=D&M       
+    @R2
+    M=D         
     @R0
-    A=M      
-
+    D=M       
     @R1
-    A=A|M    
+    D=D|M       
+    D=D-M     
 
     @R2
-    D=A-D    
-    M=D
+    M=D       
